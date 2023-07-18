@@ -5,8 +5,9 @@ This project shows the detection of 3 different shoe types. In our daily life, t
 This program utilizes imagenet through the help of Nvidia's Jetson Nano Kit. It uses imagenet to sperate different shoes into classIDs and then provide the results.  
 
 # Running the Program
-1. Connect to the Jetson Nano Kit throught the ip address recorded
+1. Connect to the Jetson Nano Kit by using SSH using the IP address recorded
 2. Open Visual Studio code and connect to Nano using the IP address found in the previous step
 3. Choose pictures that you would like for this AI model to detect and (if needed) change the pictures into JPG files
 4. Put the pictures that you chose into the same directory as to where the python file is - "imagenet.py"
 5. Write the following command in the terminal - python3 imagenet.py [name of ur pic].jpg [name of the pic after detected].jpg
+6. The result can be viewed in the terminal
